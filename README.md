@@ -1,4 +1,4 @@
-# CSS advanced selectors, media queries, and flexbox
+# CSS advanced selectors, media queries and flexbox
 
 ![CSS Icon](./assets/css-icon.svg)
 
