@@ -1,0 +1,37 @@
+/* Direct Descendants (Children) */
+
+ul > span{
+    color: blue;
+}
+
+/* descendant (no matter where) */
+.descendant-container span{
+    color: brown;
+}
+
+#first-bro{
+    background-color: coral;
+}
+
+/* first sibling */
+#first-bro + p{
+    background-color: chartreuse;
+}
+
+/* multiple selection */
+
+#section-one, .container-title{
+    background-color: black;
+    color: white;
+}
+
+
+/* attribute selector */
+
+input[type]{
+    color: blueviolet;
+}
+
+p[class~="world"]{
+    font-size: 40px;
+}

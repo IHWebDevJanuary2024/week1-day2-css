@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advanced-selectors.css">
+    <title>Advanced selectors</title>
+</head>
+<body>
+    <h2>Direct descendant</h2>
+    <ul>
+        <li>Element one1 <span>SPAN (this doesn't have the color blue)</span></li>
+        <span>THIS IS WORKING</span>
+        <li>Element two2</li>
+    </ul>
+    <h2>Descendant</h2>
+    <ul class="descendant-container">
+        <li>Element one1 <span>SPAN  color brown OK</span></li>
+        <span>THIS IS WORKING</span>
+        <li>Element two2</li>
+    </ul>
+    <p id="first-bro">This is a paragraph that is going to have a sibling ⬇️</p>
+    <p>Hello I'm the sibling of this guy up here ⬆️</p>
+
+    <section id="section-one">
+        <h3>this is a section with an h3</h3>
+    </section>
+    <div class="container-title">
+        <h3>This is a div with an h3</h3>
+    </div>
+
+    <input type="text">
+    <input type="number">
+
+    <p class="hello world">Hello this has an atrribute with more than one thing</p>
+</body>
+</html>
